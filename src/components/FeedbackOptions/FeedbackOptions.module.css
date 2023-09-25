@@ -12,8 +12,7 @@
     border-radius: 4px;
 }
 
-.btnOpt:hover,
-.btnOpt:focus{
+.btnOpt:hover{
     color: white;
     background-color: blue;
 }

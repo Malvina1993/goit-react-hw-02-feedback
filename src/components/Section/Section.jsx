@@ -1,10 +1,13 @@
+import { Component } from "react";
 
-export const Section = ({ title = "", children }) => {
-    return (
+export class Section extends Component {
+    render() {
+       return(
         <div>
-            
-            <p>{ title}</p>
-            {children}
+            <p>{ this.props.title}</p>
+            {this.props.children}
         </div>
     )
+   }
+    
 }
